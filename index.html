@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ask Fiona — Two-Panel GIF Bot (v3f)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preload" as="image" href="./assets/gifs/left_before.gif">
+  <link rel="preload" as="image" href="./assets/gifs/before.gif">
+</head>
+<body>
+  <div class="wrap">
+    <main class="stageGrid">
+      <div class="panel left">
+        <img id="leftImage" class="panelImage" alt="Left panel (before/after)" />
+      </div>
+      <div class="panel right">
+        <img id="rightImage" class="panelImage" alt="Right panel (before/answers)" />
+      </div>
+    </main>
+
+    <form id="chatForm" class="composer" autocomplete="off">
+      <input id="input" class="input" placeholder="Ask a question (e.g., What's her favorite animal?) and press Enter…" />
+      <button class="send" type="submit" aria-label="Send">Send</button>
+    </form>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

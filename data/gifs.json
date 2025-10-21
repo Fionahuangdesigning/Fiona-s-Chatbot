@@ -1,0 +1,26 @@
+{
+  "left": {
+    "before": "./assets/gifs/left_before.gif",
+    "after": "./assets/gifs/left_after.gif"
+  },
+  "before": {
+    "src": "./assets/gifs/before.gif"
+  },
+  "answers": {
+    "favorite_color": {
+      "src": "./assets/gifs/answer_favorite_color.gif"
+    },
+    "favorite_animal": {
+      "src": "./assets/gifs/answer_favorite_animal.gif"
+    },
+    "favorite_food": {
+      "src": "./assets/gifs/answer_favorite_food.gif"
+    },
+    "whats_in_bag": {
+      "src": "./assets/gifs/answer_whats_in_bag.gif"
+    },
+    "secret": {
+      "src": "./assets/gifs/secret.gif"
+    }
+  }
+}
